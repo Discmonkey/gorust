@@ -1,3 +1,5 @@
+pub mod channel;
+
 #[cfg(test)]
 mod tests {
     #[test]
