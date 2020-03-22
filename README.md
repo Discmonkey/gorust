@@ -1,16 +1,18 @@
 # GO RUST 
 
-A series of patterns implemented in Rust that are common to the go language. 
+A series of patterns implemented in Rust that are common to the go language. While the go examples, will 
+compile please note that they may not be strictly idiomatic. 
 
 
 ### Single Producer
 
-A pattern that calls a function from another thread, and sends its result on a channel. Caller is free pursue to
+A pattern that calls a function from another thread/goroutine, and sends its result on a channel. Caller is free pursue to
 other interests.
 
 ##### Go example
 
 ```go
+package main
 
 import (
 	"fmt"

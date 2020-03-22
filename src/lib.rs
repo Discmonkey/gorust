@@ -1,4 +1,5 @@
-pub mod channel;
+pub mod single;
+pub mod multi;
 
 #[cfg(test)]
 mod tests {
